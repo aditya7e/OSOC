@@ -1,6 +1,5 @@
 /* styles.css */
 
-/* Custom styles for alternating sections */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@
 }
 
 .black-section {
-    /* background-color: #333; */
     background-image: url("images/IjSz.gif");
     color: #fff;
     padding: 50px;
@@ -29,14 +27,14 @@
 }
 
 .event-name {
-    font-family: 'Lobster', cursive; /* Change font family to Lobster */
+    font-family: 'Lobster', cursive; 
     font-size: 3em;
     margin-top: 20px;
     opacity: 0; /* Set initial opacity to 0 for animation */
     animation: fadeInUp 1.5s ease forwards; /* Custom animation */
 }
 
-/* Custom styles for About section */
+
 .about-section {
     max-width: 600px; /* Set the maximum width */
     margin: 0 auto; /* Center the element */
@@ -83,7 +81,7 @@
 
 .line {
     flex-grow: 1;
-    border-bottom: 2px solid #333; /* Adjust the color of the line as needed */
+    border-bottom: 2px solid #333;
 }
 
 .section-content {
